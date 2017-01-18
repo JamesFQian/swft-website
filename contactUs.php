@@ -48,7 +48,7 @@ James Qian
 					<p>
 						<!-- 3 hidden elements for SMTP email processing -->
 						<!-- This element controls where the email goes -->
-						<input type="hidden" name="sendto" value="dennis.anderson@asu.edu" />
+						<input type="hidden" name="sendto" value="james.qian@asu.edu" />
 						
 						<!-- This element controls the subject line of the email -->
 						<input type="hidden" name="subject" value="Website Inquiry" />
