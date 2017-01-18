@@ -1,0 +1,146 @@
+/*
+Project
+headerSidebar.css
+James Qian
+Morning Class Fall 2016
+*/
+
+@import "headerSidebar.css";
+
+* { box-sizing: border-box; }
+
+body {
+	text-align: center;
+	background-image: url("backgroundImageAZ.jpg");
+	background-size: 100%;
+}
+
+.col-01  {width: 10%; }
+.col-02  {width: 20%; }
+.col-03  {width: 30%; }
+.col-04  {width: 40%; }
+.col-05  {width: 50%; }
+.col-06  {width: 60%; }
+.col-07  {width: 70%; }
+.col-08  {width: 80%; }
+.col-09  {width: 90%; }
+.col-10  {width: 100%; }
+
+#confirmationBody {
+	color: white;
+	font-family: "Calibri", sans-serif;
+}
+
+#headPhoto {
+	height:350px;
+}
+
+#bodyDiv {
+	float: left;
+	background-color: rgba(245, 245, 215, 0.3);
+	padding: 10px;
+	margin-top: 15px;
+	border: 2px solid grey;
+	width: 75%;
+	text-align: left;
+}
+
+.bodyTitle {
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 1.35em;
+}
+
+.bodyContent {
+	font-family: "Calibri", sans-serif;
+	padding: 10px;
+	padding-left: 20px;
+	font-size: 1.15em;
+}
+
+.author {
+	font-style: italic;
+}
+
+.subTitle {
+	font-weight: bold;
+}
+
+#footer {
+	font-family: "Calibri", sans-serif;
+	color: white;
+	clear: both;
+	position: relative;
+	padding-top: 2px;
+	bottom: 0;
+	font-size: .75em;
+}
+
+.projectLink {
+	font-family: "Calibri", sans-serif;
+	font-size: 1.15em;
+	padding: 20px;
+	background-color: rgba(245, 245, 215, 0.3);
+}
+
+.projectTableData {
+	padding: 20px;
+	font-size: 1.25em;
+	text-decoration: none;
+}
+
+.competitorImageSquare {
+	height: 100px;
+	width: 100px;
+	border: 2px solid black;
+}
+
+.competitorImage {
+	height: 100px;
+	width: 200px;
+	border: 2px solid black;
+}
+
+#formTitle {
+	font-family: "Calibri", sans-serif;
+	font-size: 1.5em;
+	margin-left: 10px;
+	font-weight: bold;
+	color: black;
+	padding: 3px;
+	padding-right: 0px;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=number]
+{
+	height: 30px;
+	width: 300px;
+	font-family: "Calibri", sans-serif;
+	font-size: 0.9em;
+	margin-left: 10px;
+	margin-top: 14px;
+	border-radius: 5px;
+	border: 2px solid black;
+	padding-left: 4px;
+	
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button 
+{
+	-webkit-appearance: none;
+}
+
+
+input[type=button], input[type=reset], input[type=submit] {
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: .75em;
+	height: 40px;
+	font-weight: bold;
+	border-radius: 7px;
+	background-color: #cbced3;
+}
+
+#twitterLogo {
+	height: 100px;
+}

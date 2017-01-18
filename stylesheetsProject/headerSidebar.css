@@ -1,0 +1,66 @@
+.topMenuItem {
+	 width: 22%;
+	 text-align: center;
+	 clear: left;
+	 height: 80px;
+	 background-color: black;
+	 margin: 0px;
+}
+
+.topMenuItem a, .leftMenu a {
+	text-decoration: none;
+	color: white;
+	font-family: "Georgia", serif;
+	font-size: 1.15em;
+}
+
+.topMenuItem:hover, .leftMenu:hover {
+	background-color: #454545;
+}
+
+
+
+#header {
+	background-color: black;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	border: 2px solid grey;
+}
+
+#SWFTImage {
+	width: 90px;
+	height: auto;
+	margin-left: 15px;
+	margin-top: 5px;
+}
+
+#SWFTName {
+	font-size: 1.15em;
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+#sidebar {
+	float: left;
+	width: 20%;
+	margin: 0px;
+	border-spacing: 0px 15px;
+	margin-right: 20px;
+}
+
+.leftMenu {
+	margin-left: 0px;
+	padding-left: 0px;
+	background-color: black;
+	color: white;
+	font-family: "Georgia", serif;
+	font-size: 1.25em;
+	height: 75px;
+	width: 20%;
+	line-height: 75px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border: 1px solid grey;
+	
+}
